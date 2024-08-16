@@ -14,14 +14,14 @@ namespace HW_mvc1.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             HomeVM homeVM = new HomeVM
             {
-                Slides = _context.Slides.OrderBy(x => x.Order).Take(2).ToList(),
-                Products = _context.Products.OrderByDescending(p=>p.CreatedTime).Take(8)
+                Slides = await _context.Slides.OrderBy(x => x.Order).Take(2).ToListAsync(),
+                Products = await _context.Products.OrderByDescending(p=>p.CreatedTime).Take(8)
                 .Include(x => x.ProductImages.Where(pi => pi.IsPrimary != null))
-                .ToList(),
+                .ToListAsync(),
             };
 
             return View(homeVM);

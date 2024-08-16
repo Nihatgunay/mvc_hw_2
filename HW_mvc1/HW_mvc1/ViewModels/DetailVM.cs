@@ -6,7 +6,6 @@ namespace HW_mvc1.ViewModels
     {
         public Product Product { get; set; }
         public List<Product> Products { get; set; }
-        public List<Product> RelatedProducts { get; set; }
 
     }
 }
