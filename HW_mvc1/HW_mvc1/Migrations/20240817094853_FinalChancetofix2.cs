@@ -5,7 +5,7 @@
 namespace HW_mvc1.Migrations
 {
     /// <inheritdoc />
-    public partial class ThirdTestMig : Migration
+    public partial class FinalChancetofix2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

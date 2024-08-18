@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HqU/J/b+JaqyV0FllT18pwTgkkVI1MtaK0PYo8FyHOgJZROcrYfc5TiBb6xqsIw1aLle8bh59O5XOVt9A1NtMQ==",
+  "dgSpecHash": "Wqv8pjInc9EPnptXk+tzzq9KONbQtHEQVprbUNRw6j23GyLbgVm1JYYqBXqaf+Cy3e+ClY5E7bZGtRWT1cBMKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\nihat\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\HW_mvc1.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\HW_mvc1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

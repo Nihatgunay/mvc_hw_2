@@ -1,0 +1,91 @@
+﻿@model List<Product>
+@{
+	int num = 0;
+}
+
+
+<div class="main-panel">
+	<div class="content-wrapper">
+		<div class="row">
+
+			<div class="col-lg-12 grid-margin stretch-card">
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">Product Table</h4>
+						<a asp-action="create" class="btn btn-success">create</a>
+
+						<div class="table-responsive">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>
+											No
+										</th>
+										<th>
+											Name
+										</th>
+										<th>
+											short-desc
+										</th>
+										<th>
+											Price
+										</th>
+										<th>
+											SKU
+										</th>
+										<th>
+											Category
+										</th>
+										<th>
+											Size
+										</th>
+										<th>
+											Actions
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (Product prd in Model)
+									{
+										num++;
+										<tr>
+											<td class="py-1">
+												@num
+											</td>
+											<td>
+												@prd.Name
+											</td>
+											<td>
+												@(prd.Description.Length >= 20 ? prd.Description.Substring(0, 20) : prd.Description)
+											</td>
+											<td>
+												@prd.Price
+											</td>
+											<td>
+												@prd.SKU
+											</td>
+											<td>
+												@prd.Category.Name
+											</td>
+											<td>
+												@prd.Size.Name
+											</td>
+											<td>
+												<a class="btn btn-primary">edit</a>
+												<a class="btn btn-danger">remove</a>
+												<a class="btn btn-warning">detail</a>
+											</td>
+
+										</tr>
+									}
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

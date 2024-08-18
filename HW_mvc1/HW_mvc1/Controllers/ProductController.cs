@@ -20,29 +20,31 @@ namespace HW_mvc1.Controllers
             {
                 return BadRequest();
             }
-            Product? product = await _context.Products
-            .Include(p => p.Category)
-            .Include(p => p.ProductImages.OrderByDescending(x => x.IsPrimary))
-            .FirstOrDefaultAsync(p => p.Id == id);
 
-            if (product is null)
-            {
-                return NotFound();
-            }
+			Product? product = await _context.Products
+				.Include(p => p.Category)
+				.Include(p => p.ProductImages.OrderByDescending(x => x.IsPrimary))
+				.Include(p => p.ProductColors)
+				.ThenInclude(pc => pc.Color) 
+				.FirstOrDefaultAsync(p => p.Id == id);
 
+			if (product is null)
+			{
+				return NotFound();
+			}
 
-            DetailVM detailVM = new DetailVM
-            {
-                Product = product,
-                Products = await _context.Products.Where(p => p.CategoryId == product.CategoryId && p.Id != id)
-                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
-                .ToListAsync(),
+			DetailVM detailVM = new DetailVM
+			{
+				Product = product,
+				Products = await _context.Products.Where(p => p.CategoryId == product.CategoryId && p.Id != id)
+					.Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
+					.Include(p => p.ProductColors)
+					.ThenInclude(pc => pc.Color) 
+					.ToListAsync(),
+			};
 
-                
-            };
-
-            return View(detailVM);
-        }
+			return View(detailVM);
+		}
 
         public IActionResult Index()
         {
