@@ -43,7 +43,7 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 
 			if (exists)
 			{
-				ModelState.AddModelError("ProductId", "This product is already associated with the selected tag.");
+				ModelState.AddModelError("ProductId", "This product is already with the selected tag.");
 				return View();
 			}
 
