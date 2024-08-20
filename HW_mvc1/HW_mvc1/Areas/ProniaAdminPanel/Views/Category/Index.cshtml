@@ -47,8 +47,8 @@
 												@ctg.Products.Count
 											</td>
 											<td>
-												<a class="btn btn-primary">edit</a>
-												<a class="btn btn-danger">remove</a>
+												<a asp-action="Update" asp-route-id="@ctg.Id" class="btn btn-primary">edit</a>
+												<a asp-action="Delete" asp-route-id="@ctg.Id" class="btn btn-danger">remove</a>
 												<a class="btn btn-warning">detail</a>
 											</td>
 

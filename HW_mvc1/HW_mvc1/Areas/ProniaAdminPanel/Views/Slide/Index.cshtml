@@ -1,4 +1,4 @@
-﻿@model List<Category>
+﻿@model List<Slide>
 @{
 	int num = 0;
 }
@@ -11,9 +11,9 @@
 			<div class="col-lg-12 grid-margin stretch-card">
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-title">Category Table</h4>
-						<a asp-area="proniaadminpanel" asp-controller="category" asp-action="create" class="btn btn-success">Create</a>
-						
+						<h4 class="card-title">Slide Table</h4>
+						<a asp-action="create" class="btn btn-success">Create</a>
+
 						<div class="table-responsive">
 							<table class="table table-striped">
 								<thead>
@@ -22,10 +22,13 @@
 											No
 										</th>
 										<th>
-											Name
+											Image
 										</th>
 										<th>
-											Product count
+											Title
+										</th>
+										<th>
+											Order
 										</th>
 										<th>
 											Actions
@@ -33,7 +36,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									@foreach (Category ctg in Model)
+									@foreach (Slide slide in Model)
 									{
 										num++;
 										<tr>
@@ -41,14 +44,17 @@
 												@num
 											</td>
 											<td>
-												@ctg.Name
+												<img src="~/assets/images/website-images/@slide.ImageUrl"/>
 											</td>
 											<td>
-												@ctg.Products.Count
+												@slide.Title
 											</td>
 											<td>
-												<a class="btn btn-primary">edit</a>
-												<a class="btn btn-danger">remove</a>
+												@slide.Order
+											</td>
+											<td>
+												<a asp-action="Update" asp-route-id="@slide.Id" class="btn btn-primary">edit</a>
+												<a asp-action="Delete" asp-route-id="@slide.Id" class="btn btn-danger">remove</a>
 												<a class="btn btn-warning">detail</a>
 											</td>
 

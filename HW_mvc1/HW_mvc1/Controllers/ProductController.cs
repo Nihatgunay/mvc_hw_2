@@ -24,8 +24,6 @@ namespace HW_mvc1.Controllers
 			Product? product = await _context.Products
 				.Include(p => p.Category)
 				.Include(p => p.ProductImages.OrderByDescending(x => x.IsPrimary))
-				.Include(p => p.ProductColors)
-				.ThenInclude(pc => pc.Color) 
 				.FirstOrDefaultAsync(p => p.Id == id);
 
 			if (product is null)
@@ -38,8 +36,6 @@ namespace HW_mvc1.Controllers
 				Product = product,
 				Products = await _context.Products.Where(p => p.CategoryId == product.CategoryId && p.Id != id)
 					.Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
-					.Include(p => p.ProductColors)
-					.ThenInclude(pc => pc.Color) 
 					.ToListAsync(),
 			};
 

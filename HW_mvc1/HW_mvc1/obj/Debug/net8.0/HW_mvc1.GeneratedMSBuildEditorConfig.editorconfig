@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xDYXRlZ29yeVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Color/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xDb2xvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,16 +46,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xDb2xvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Color/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xDb2xvclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductColor/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xQcm9kdWN0Q29sb3JcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductColor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xQcm9kdWN0Q29sb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductImage/Create.cshtml]
@@ -60,14 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductImage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xQcm9kdWN0SW1hZ2VcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductTag/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xQcm9kdWN0VGFnXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/ProductTag/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xQcm9kdWN0VGFnXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Product/Create.cshtml]
@@ -90,12 +82,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xTaXplXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Size/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xTaXplXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Slide/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xTbGlkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Slide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xTbGlkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Tag/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Tag/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/Tag/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/mvc_hw_2/HW_mvc1/HW_mvc1/Areas/ProniaAdminPanel/Views/_ViewImports.cshtml]

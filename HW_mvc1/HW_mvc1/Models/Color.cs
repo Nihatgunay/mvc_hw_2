@@ -6,6 +6,7 @@ namespace HW_mvc1.Models
 	{
 		
 		public string Name { get; set; }
-		public ICollection<ProductColor> ProductColors { get; set; }
-	}
+        public ICollection<Product>? Products { get; set; }
+
+    }
 }

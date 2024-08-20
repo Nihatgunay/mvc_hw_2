@@ -16,7 +16,7 @@ app.MapControllerRoute(
     );
 
 app.MapControllerRoute(
-    "admin",
+    "areas",
     "{area:exists}/{controller=home}/{action=index}/{id?}"
     );
 

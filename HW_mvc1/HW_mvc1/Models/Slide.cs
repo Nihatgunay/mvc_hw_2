@@ -1,4 +1,6 @@
-﻿namespace HW_mvc1.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace HW_mvc1.Models
 {
     public class Slide : BaseEntity
     {
@@ -7,6 +9,7 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public int Order { get; set; }
-
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

@@ -18,7 +18,7 @@ namespace HW_mvc1.Controllers
         {
             HomeVM homeVM = new HomeVM
             {
-                Slides = await _context.Slides.OrderBy(x => x.Order).Take(2).ToListAsync(),
+                Slides = await _context.Slides.OrderBy(x => x.Order).ToListAsync(),
                 Products = await _context.Products.OrderByDescending(p=>p.CreatedTime).Take(8)
                 .Include(x => x.ProductImages.Where(pi => pi.IsPrimary != null))
                 .ToListAsync(),

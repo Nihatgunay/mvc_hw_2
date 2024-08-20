@@ -6,7 +6,7 @@ namespace HW_mvc1.Models
 	{
 		
         public string Name { get; set; }
-		public ICollection<ProductTag> ProductTags { get; set; }
+        public ICollection<Product>? Products { get; set; }
 
-	}
+    }
 }
