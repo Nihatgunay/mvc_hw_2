@@ -41,5 +41,24 @@ namespace HW_mvc1.Utilities.Extensions
 			}
 			return filename;
 		}
+
+		public static void DeleteFile(this string filename, params string[] roots)
+		{
+			string path = string.Empty;
+
+			for (int i = 0; i < roots.Length; i++)
+			{
+				path = Path.Combine(path, roots[i]);
+			}
+			path = Path.Combine(path, filename);
+
+
+
+			if (System.IO.File.Exists(path))
+			{
+				System.IO.File.Delete(path);
+			}
+		}
+
 	}
 }

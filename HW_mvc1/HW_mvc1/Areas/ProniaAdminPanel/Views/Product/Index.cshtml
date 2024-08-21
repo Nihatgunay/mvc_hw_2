@@ -1,4 +1,4 @@
-﻿@model List<Product>
+﻿@model List<GetAdminProductVM>
 @{
 	int num = 0;
 }
@@ -22,22 +22,16 @@
 											No
 										</th>
 										<th>
-											Name
+											Image
 										</th>
 										<th>
-											short-desc
+											Name
 										</th>
 										<th>
 											Price
 										</th>
 										<th>
-											SKU
-										</th>
-										<th>
 											Category
-										</th>
-										<th>
-											Size
 										</th>
 										<th>
 											Actions
@@ -45,7 +39,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									@foreach (Product prd in Model)
+									@foreach (GetAdminProductVM prd in Model)
 									{
 										num++;
 										<tr>
@@ -53,26 +47,20 @@
 												@num
 											</td>
 											<td>
-												@prd.Name
+												<img src="~/assets/images/website-images/@prd.Image" />
 											</td>
 											<td>
-												@(prd.Description.Length >= 20 ? prd.Description.Substring(0, 20) : prd.Description)
+												@prd.Name
 											</td>
 											<td>
 												@prd.Price
 											</td>
 											<td>
-												@prd.SKU
+												@prd.CategoryName
 											</td>
 											<td>
-												@prd.Category.Name
-											</td>
-											<td>
-												@prd.Size.Name
-											</td>
-											<td>
-												<a class="btn btn-primary">edit</a>
-												<a class="btn btn-danger">remove</a>
+												<a asp-action="update" asp-route-id="@prd.Id" class="btn btn-primary">edit</a>
+												<a asp-action="delete" asp-route-id="@prd.Id" class="btn btn-danger">remove</a>
 												<a class="btn btn-warning">detail</a>
 											</td>
 

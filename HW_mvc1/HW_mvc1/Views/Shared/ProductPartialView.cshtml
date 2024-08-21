@@ -6,16 +6,15 @@
         <div class="swiper-wrapper">
             @foreach (Product prd in Model)
             {
-                var primaryImage = prd.ProductImages?.FirstOrDefault()?.ImageUrl ?? "default-image.jpg";
 
                 <div class="swiper-slide product-item">
                     <div class="product-img">
                         <a asp-controller="product" asp-action="detail" asp-route-id="@prd.Id">
                             <img class="primary-img"
-                                 src="~/assets/images/website-images/@primaryImage"
+                                 src="~/assets/images/website-images/@prd.ProductImages.FirstOrDefault(x => x.IsPrimary == true)?.ImageUrl"
                                  alt="Product Image" />
                             <img class="secondary-img"
-                                 src="~/assets/images/website-images/@primaryImage"
+                                 src="~/assets/images/website-images/@prd.ProductImages.FirstOrDefault(x => x.IsPrimary == false)?.ImageUrl"
                                  alt="Product Image" />
                         </a>
                         <div class="product-add-action">

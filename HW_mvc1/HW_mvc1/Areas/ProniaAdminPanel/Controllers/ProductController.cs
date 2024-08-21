@@ -1,4 +1,6 @@
-﻿using HW_mvc1.DAL;
+﻿using System.Collections.Immutable;
+using HW_mvc1.Areas.ProniaAdminPanel.ViewModels;
+using HW_mvc1.DAL;
 using HW_mvc1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -16,54 +18,109 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
             _context = context;
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<GetAdminProductVM> products = await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.ProductImages.Where(pi=>pi.IsPrimary == true))
+                .Select(p=> new GetAdminProductVM
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    CategoryName = p.Category.Name,
+                    Image = p.ProductImages.FirstOrDefault().ImageUrl
+                })
+                .ToListAsync();
+            return View(products);
+        }
+
+        public async Task<IActionResult> Create()
+        {
+            CreateProductVM productVM = new CreateProductVM
+            {
+				Categories = await _context.Categories.Where(x => x.IsDeleted == false).ToListAsync()
+		    };
+            return View(productVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Product product)
+        public async Task<IActionResult> Create(CreateProductVM productVM)
         {
+            productVM.Categories = await _context.Categories.Where(x => x.IsDeleted == false).ToListAsync();
+
             if (!ModelState.IsValid)
             {
-                return View(product);
+
+                return View(productVM);
             }
 
-            var category = await _context.Categories.FirstOrDefaultAsync(c => c.Name == product.Category.Name);
-            if (category == null)
+            bool result = await _context.Categories.AnyAsync(x => x.Id == productVM.CategoryId && x.IsDeleted == false);
+            if (!result)
             {
-                ModelState.AddModelError("Category.Name", "Category not found");
-                return View(product);
-            }
+                ModelState.AddModelError("CategoryId", "Category doesnt exist");
 
-            var size = await _context.Sizes.FirstOrDefaultAsync(s => s.Name == product.Size.Name);
-            if (size == null)
+                return View(productVM);
+            }
+            Product product = new Product
             {
-                ModelState.AddModelError("Size.Name", "Size not found");
-                return View(product);
-            }
+                CategoryId = productVM.CategoryId.Value,
+                SKU = productVM.SKU,
+                Description = productVM.Description,
+                Name = productVM.Name,
+                Price = productVM.Price,
+                CreatedTime = DateTime.Now,
 
-            bool productExists = await _context.Products.AnyAsync(x => x.Name.Trim() == product.Name.Trim());
-            if (productExists)
-            {
-                ModelState.AddModelError("Name", "Product with this name already exists");
-                return View(product);
-            }
-
-            product.CategoryId = category.Id;
-            product.SizeId = size.Id;
-            product.CreatedTime = DateTime.Now;
-
+            };
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Update(int? id)
         {
-            var products = await _context.Products.Include(p => p.Category).Include(p => p.Size).ToListAsync();
-            return View(products);
+            if (id == null || id <= 0) return BadRequest();
+
+            Product product = await _context.Products.FirstOrDefaultAsync(x => x.Id ==  id && x.IsDeleted == false);
+            if (product == null) return NotFound();
+
+            UpdateProductVM productVM = new UpdateProductVM
+            {
+                Name = product.Name,
+                CategoryId = product.CategoryId,
+                SKU = product.SKU,
+                Description = product.Description,
+                Price = product.Price,
+                Categories = await _context.Categories.Where(x => !x.IsDeleted).ToListAsync()
+            };
+
+            return View(productVM);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, UpdateProductVM productVM)
+        {
+            if (id == null || id <= 0) return BadRequest();
+
+            Product existed = await _context.Products.FirstOrDefaultAsync(x => x.Id == id && x.IsDeleted == false);
+            if (existed == null) return NotFound();
+
+            productVM.Categories = await _context.Categories.Where(x => !x.IsDeleted).ToListAsync();
+            if (!ModelState.IsValid)
+            {
+                return View(productVM);
+            }
+            if(existed.CategoryId != productVM.CategoryId)
+            {
+                bool result = await _context.Categories.AnyAsync(x => x.Id == productVM.CategoryId && x.IsDeleted == false);
+                if (!result)
+                {
+                    ModelState.AddModelError("CategoryId", "category does not exist");
+                    return View(productVM);
+                }
+            }
+
+            return View(productVM);
         }
     }
 }
