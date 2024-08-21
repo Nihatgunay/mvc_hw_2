@@ -16,11 +16,9 @@
         public int ColorId { get; set; }
         public Color color { get; set; }
 
-        public int TagId { get; set; }
-        public Tag tag { get; set; }
-
         public ICollection<ProductImage> ProductImages { get; set; }
-		
+        public ICollection<ProductTag>? ProductTags { get; set; }
 
-	}
+
+    }
 }

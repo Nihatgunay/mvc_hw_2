@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HW_mvc1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240819162931_FirstAftermanytomany")]
-    partial class FirstAftermanytomany
+    [Migration("20240821171534_FirstAfterDroppedDB2")]
+    partial class FirstAfterDroppedDB2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,9 +110,6 @@ namespace HW_mvc1.Migrations
                     b.Property<int>("SizeId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TagId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -120,8 +117,6 @@ namespace HW_mvc1.Migrations
                     b.HasIndex("ColorId");
 
                     b.HasIndex("SizeId");
-
-                    b.HasIndex("TagId");
 
                     b.ToTable("Products");
                 });
@@ -155,6 +150,29 @@ namespace HW_mvc1.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImages");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("ProductTags");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Size", b =>
@@ -261,19 +279,11 @@ namespace HW_mvc1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HW_mvc1.Models.Tag", "tag")
-                        .WithMany("Products")
-                        .HasForeignKey("TagId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
 
                     b.Navigation("Size");
 
                     b.Navigation("color");
-
-                    b.Navigation("tag");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.ProductImage", b =>
@@ -285,6 +295,25 @@ namespace HW_mvc1.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductTag", b =>
+                {
+                    b.HasOne("HW_mvc1.Models.Product", "Product")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HW_mvc1.Models.Tag", "Tag")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Category", b =>
@@ -300,6 +329,8 @@ namespace HW_mvc1.Migrations
             modelBuilder.Entity("HW_mvc1.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
+
+                    b.Navigation("ProductTags");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Size", b =>
@@ -309,7 +340,7 @@ namespace HW_mvc1.Migrations
 
             modelBuilder.Entity("HW_mvc1.Models.Tag", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }

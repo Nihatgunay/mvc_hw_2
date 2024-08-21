@@ -12,5 +12,7 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.ViewModels
         public decimal Price { get; set; }
         public string SKU { get; set; }
         public List<Category>? Categories { get; set; }
-    }
+		public List<Tag>? Tags { get; set; }
+		public List<int>? TagIds { get; set; }
+	}
 }

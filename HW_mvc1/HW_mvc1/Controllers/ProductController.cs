@@ -24,6 +24,7 @@ namespace HW_mvc1.Controllers
 			Product? product = await _context.Products
 				.Include(p => p.Category)
 				.Include(p => p.ProductImages.OrderByDescending(x => x.IsPrimary))
+                .Include(x => x.ProductTags).ThenInclude(p => p.Tag)
 				.FirstOrDefaultAsync(p => p.Id == id);
 
 			if (product is null)

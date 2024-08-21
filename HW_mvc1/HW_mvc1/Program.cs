@@ -11,13 +11,13 @@ var app = builder.Build();
 app.UseStaticFiles();
 
 app.MapControllerRoute(
-    "default",
-    "{controller=home}/{action=index}/{id?}"
+    "areas",
+    "{area:exists}/{controller=home}/{action=index}/{id?}"
     );
 
 app.MapControllerRoute(
-    "areas",
-    "{area:exists}/{controller=home}/{action=index}/{id?}"
+    "default",
+    "{controller=home}/{action=index}/{id?}"
     );
 
 app.Run();
