@@ -813,8 +813,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\testimonial\\user\\3.png"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0023eeb1-701a-49bb-a78b-144bc9c89e26animal4-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\0023eeb1-701a-49bb-a78b-144bc9c89e26animal4-removebg-preview.png"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0213a59c-472d-420f-9ee6-e98d0c223e97Anycolor 20240802 135550.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\0213a59c-472d-420f-9ee6-e98d0c223e97Anycolor 20240802 135550.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0652e851-4e73-4825-ac71-5a3e4e83f2b2Anycolor 20240802 135550.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\0652e851-4e73-4825-ac71-5a3e4e83f2b2Anycolor 20240802 135550.png"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\1--1rnu4p.png",
@@ -1037,12 +1045,20 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\Anycolor 20240802 135550.png"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\c46cba8a-ad8d-4baf-961a-51251bc6ec46Anycolor 20240802 135550.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\c46cba8a-ad8d-4baf-961a-51251bc6ec46Anycolor 20240802 135550.png"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\car.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\car.png"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\card.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\d3a115d4-1624-443d-80f9-574fe1f11070fauna1.JPG",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\d3a115d4-1624-443d-80f9-574fe1f11070fauna1.JPG"
     },
     {
       "Id": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\dark.png",

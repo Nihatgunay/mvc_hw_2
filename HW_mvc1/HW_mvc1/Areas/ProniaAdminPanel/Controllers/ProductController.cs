@@ -27,13 +27,17 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
         {
             List<GetAdminProductVM> products = await _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.ProductImages.Where(pi=>pi.IsPrimary == true))
+                .Include(p => p.Color)
+                .Include(p => p.Size)
+				.Include(p => p.ProductImages.Where(pi=>pi.IsPrimary == true))
                 .Select(p=> new GetAdminProductVM
                 {
                     Id = p.Id,
                     Name = p.Name,
                     Price = p.Price,
                     CategoryName = p.Category.Name,
+                    ColorName = p.Color.Name,
+                    SizeName = p.Size.Name,
                     Image = p.ProductImages.FirstOrDefault().ImageUrl
                 })
                 .ToListAsync();
@@ -45,6 +49,8 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
             CreateProductVM productVM = new CreateProductVM
             {
 				Categories = await _context.Categories.Where(x => x.IsDeleted == false).ToListAsync(),
+				Colors = await _context.Colors.Where(x => x.IsDeleted == false).ToListAsync(),
+				Sizes = await _context.Sizes.Where(x => x.IsDeleted == false).ToListAsync(),
 				Tags = await _context.Tags.Where(x => x.IsDeleted == false).ToListAsync()
 			};
             return View(productVM);
@@ -54,7 +60,9 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
         public async Task<IActionResult> Create(CreateProductVM productVM)
         {
             productVM.Categories = await _context.Categories.Where(x => x.IsDeleted == false).ToListAsync();
-            productVM.Tags = await _context.Tags.Where(x => x.IsDeleted == false).ToListAsync();
+            productVM.Colors = await _context.Colors.Where(x => x.IsDeleted == false).ToListAsync();
+            productVM.Sizes = await _context.Sizes.Where(x => x.IsDeleted == false).ToListAsync();
+			productVM.Tags = await _context.Tags.Where(x => x.IsDeleted == false).ToListAsync();
 
 			if (!ModelState.IsValid)
             {
@@ -96,7 +104,23 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
                 return View(productVM);
             }
 
-            if(productVM.TagIds is not null)
+			bool resultcolor = await _context.Colors.AnyAsync(x => x.Id == productVM.ColorId && x.IsDeleted == false);
+			if (!resultcolor)
+			{
+				ModelState.AddModelError("ColorId", "color doesnt exist");
+
+				return View(productVM);
+			}
+
+			bool resultsize = await _context.Sizes.AnyAsync(x => x.Id == productVM.SizeId && x.IsDeleted == false);
+			if (!resultsize)
+			{
+				ModelState.AddModelError("SizeId", "size doesnt exist");
+
+				return View(productVM);
+			}
+
+			if (productVM.TagIds is not null)
             {
 				bool tagresult = productVM.TagIds.Any(tid => !productVM.Tags.Exists(t => t.Id == tid));
 				if (tagresult)
@@ -123,7 +147,9 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 			Product product = new Product
             {
                 CategoryId = productVM.CategoryId.Value,
-                SKU = productVM.SKU,
+                ColorId = productVM.ColorId.Value,
+                SizeId = productVM.SizeId.Value,
+				SKU = productVM.SKU,
                 Description = productVM.Description,
                 Name = productVM.Name,
                 Price = productVM.Price,
@@ -194,11 +220,15 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
             {
                 Name = product.Name,
                 CategoryId = product.CategoryId,
-                SKU = product.SKU,
+                ColorId = product.ColorId,
+                SizeId = product.SizeId,
+				SKU = product.SKU,
                 Description = product.Description,
                 Price = product.Price,
                 Categories = await _context.Categories.Where(x => !x.IsDeleted).ToListAsync(),
-                Tags = await _context.Tags.Where(x => !x.IsDeleted).ToListAsync(),
+                Colors = await _context.Colors.Where(x => !x.IsDeleted).ToListAsync(),
+                Sizes = await _context.Sizes.Where(x => !x.IsDeleted).ToListAsync(),
+				Tags = await _context.Tags.Where(x => !x.IsDeleted).ToListAsync(),
                 TagIds = product.ProductTags.Select(pt => pt.TagId).ToList()
 			};
 
@@ -215,6 +245,8 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 
             productVM.Categories = await _context.Categories.Where(x => !x.IsDeleted).ToListAsync();
             productVM.Tags = await _context.Tags.Where(x => !x.IsDeleted).ToListAsync();
+            productVM.Colors = await _context.Colors.Where(x => !x.IsDeleted).ToListAsync();
+            productVM.Sizes = await _context.Sizes.Where(x => !x.IsDeleted).ToListAsync();
 			if (!ModelState.IsValid)
             {
                 return View(productVM);
@@ -228,8 +260,26 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
                     return View(productVM);
                 }
             }
+			if (existed.ColorId != productVM.ColorId)
+			{
+				bool result2 = await _context.Colors.AnyAsync(x => x.Id == productVM.ColorId && x.IsDeleted == false);
+				if (!result2)
+				{
+					ModelState.AddModelError("ColorId", "color does not exist");
+					return View(productVM);
+				}
+			}
+			if (existed.SizeId != productVM.SizeId)
+			{
+				bool result3 = await _context.Sizes.AnyAsync(x => x.Id == productVM.SizeId && x.IsDeleted == false);
+				if (!result3)
+				{
+					ModelState.AddModelError("SizeId", "size does not exist");
+					return View(productVM);
+				}
+			}
 
-            _context.ProductTags.RemoveRange(existed.ProductTags.Where(pt => !productVM.TagIds.Exists(tid => tid == pt.Id)).ToList());
+			_context.ProductTags.RemoveRange(existed.ProductTags.Where(pt => !productVM.TagIds.Exists(tid => tid == pt.Id)).ToList());
             existed.ProductTags.AddRange(productVM.TagIds.Where(tid => existed.ProductTags.Any(pt => pt.TagId == tid)).Select(tId => new ProductTag { TagId=tId}));
 
             await _context.SaveChangesAsync();

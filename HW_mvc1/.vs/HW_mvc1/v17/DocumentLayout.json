@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\viewmodels\\product\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,12 +31,48 @@
       "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\productimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\productimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\viewmodels\\product\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|solutionrelative:hw_mvc1\\areas\\proniaadminpanel\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4157727-95CA-423A-9D00-7B0FCC87C4CE}|HW_mvc1\\HW_mvc1.csproj|c:\\users\\lenovo\\desktop\\mvc_hw_2\\hw_mvc1\\hw_mvc1\\areas\\proniaadminpanel\\views\\size\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -306,50 +306,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAARAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAmwMMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T13:41:51.823Z",
+              "WhenOpened": "2024-08-16T17:52:43.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CreateProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T06:34:16.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:43:00.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwEQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T17:54:01.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T07:46:06.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAdminProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:48:49.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Models\\Product.cs",
+              "RelativeToolTip": "HW_mvc1\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T16:54:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:32:54.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ColorController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ColorController.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ColorController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ColorController.cs",
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ColorController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAswGAAAAAqAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwF4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T13:42:16.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswGAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T20:35:20.627Z",
+              "WhenOpened": "2024-08-15T21:02:01.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAewDwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T17:53:46.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
@@ -357,12 +461,11 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AQIAAMYAAAAAAAAAAAAAANEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T20:47:37.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T20:47:37.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Tag\\Index.cshtml",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Tag\\Index.cshtml",
@@ -370,25 +473,35 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Tag\\Index.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T07:47:54.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T07:47:54.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAAAMkAAABMAAAA",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T17:52:43.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T20:35:20.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
+              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\TagController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:41:51.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Home\\Index.cshtml",
@@ -396,38 +509,11 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAFYAAAAAAAAAAAAuwGwAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T20:38:30.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T20:38:30.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T17:53:46.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T17:54:01.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Controllers\\HomeController.cs",
@@ -435,51 +521,11 @@
               "RelativeToolTip": "HW_mvc1\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T17:19:43.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T17:19:43.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\CreateProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:34:16.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetAdminProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\GetAdminProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:48:49.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Models\\Product.cs",
-              "RelativeToolTip": "HW_mvc1\\Models\\Product.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T16:54:26.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FileValidator.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Utilities\\Extensions\\FileValidator.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Utilities\\Extensions\\FileValidator.cs",
@@ -487,25 +533,11 @@
               "RelativeToolTip": "HW_mvc1\\Utilities\\Extensions\\FileValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T04:51:14.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T04:51:14.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T21:02:01.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Controllers\\ProductController.cs",
@@ -513,12 +545,11 @@
               "RelativeToolTip": "HW_mvc1\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T16:54:00.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T16:54:00.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ProductImageController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductImageController.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductImageController.cs",
@@ -526,38 +557,11 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\ProductImageController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T17:54:26.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T17:54:26.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\ViewModels\\Product\\UpdateProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:43:00.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Product\\Update.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T07:46:06.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Program.cs",
               "RelativeDocumentMoniker": "HW_mvc1\\Program.cs",
@@ -565,12 +569,11 @@
               "RelativeToolTip": "HW_mvc1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:52:31.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:52:31.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Size\\Index.cshtml",
               "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Size\\Index.cshtml",
@@ -578,12 +581,11 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Size\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T21:32:34.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T21:32:34.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HW_mvc1\\Views\\Home\\Index.cshtml",
@@ -591,21 +593,7 @@
               "RelativeToolTip": "HW_mvc1\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T17:20:15.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SizeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
-              "RelativeDocumentMoniker": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
-              "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Controllers\\SizeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T09:32:54.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T17:20:15.754Z"
             },
             {
               "$type": "Document",
@@ -617,8 +605,7 @@
               "RelativeToolTip": "HW_mvc1\\Areas\\ProniaAdminPanel\\Views\\Size\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T21:32:23.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T21:32:23.771Z"
             },
             {
               "$type": "Document",
@@ -630,8 +617,7 @@
               "RelativeToolTip": "HW_mvc1\\Views\\Product\\Detail.cshtml",
               "ViewState": "AQIAALsAAAAAAAAAAAAewMEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T21:10:42.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T21:10:42.224Z"
             },
             {
               "$type": "Document",
@@ -643,8 +629,7 @@
               "RelativeToolTip": "HW_mvc1\\Models\\Tag.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAmwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T17:59:47.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T17:59:47.673Z"
             },
             {
               "$type": "Document",
@@ -656,8 +641,7 @@
               "RelativeToolTip": "HW_mvc1\\Models\\Color.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T18:00:05.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T18:00:05.02Z"
             },
             {
               "$type": "Document",
@@ -669,8 +653,7 @@
               "RelativeToolTip": "HW_mvc1\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAwwAkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:38:03.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T15:38:03.145Z"
             },
             {
               "$type": "Document",
@@ -682,8 +665,7 @@
               "RelativeToolTip": "HW_mvc1\\Models\\ProductTag.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:30:31.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T15:30:31.114Z"
             },
             {
               "$type": "Document",
@@ -695,8 +677,7 @@
               "RelativeToolTip": "HW_mvc1\\Models\\Slide.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T18:01:01.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T18:01:01.917Z"
             },
             {
               "$type": "Document",

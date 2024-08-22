@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/WK24XOmbCdpPGMCbOI6+MIRdkr0emsHixSOl5o0lVU=",
+  "Hash": "jmfXpc36AWd758xjeFh/qBriz02B4uPhPLAlLF8dc7w=",
   "Source": "HW_mvc1",
   "BasePath": "_content/HW_mvc1",
   "Mode": "Default",
@@ -3874,6 +3874,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\testimonial\\user\\3.png"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0023eeb1-701a-49bb-a78b-144bc9c89e26animal4-removebg-preview.png",
+      "SourceId": "HW_mvc1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\",
+      "BasePath": "_content/HW_mvc1",
+      "RelativePath": "assets/images/website-images/0023eeb1-701a-49bb-a78b-144bc9c89e26animal4-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\0023eeb1-701a-49bb-a78b-144bc9c89e26animal4-removebg-preview.png"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0213a59c-472d-420f-9ee6-e98d0c223e97Anycolor 20240802 135550.png",
       "SourceId": "HW_mvc1",
       "SourceType": "Discovered",
@@ -3891,6 +3910,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\0213a59c-472d-420f-9ee6-e98d0c223e97Anycolor 20240802 135550.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\0652e851-4e73-4825-ac71-5a3e4e83f2b2Anycolor 20240802 135550.png",
+      "SourceId": "HW_mvc1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\",
+      "BasePath": "_content/HW_mvc1",
+      "RelativePath": "assets/images/website-images/0652e851-4e73-4825-ac71-5a3e4e83f2b2Anycolor 20240802 135550.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\0652e851-4e73-4825-ac71-5a3e4e83f2b2Anycolor 20240802 135550.png"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\1.png",
@@ -4938,6 +4976,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\Anycolor 20240802 135550.png"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\c46cba8a-ad8d-4baf-961a-51251bc6ec46Anycolor 20240802 135550.png",
+      "SourceId": "HW_mvc1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\",
+      "BasePath": "_content/HW_mvc1",
+      "RelativePath": "assets/images/website-images/c46cba8a-ad8d-4baf-961a-51251bc6ec46Anycolor 20240802 135550.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\c46cba8a-ad8d-4baf-961a-51251bc6ec46Anycolor 20240802 135550.png"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\car.png",
       "SourceId": "HW_mvc1",
       "SourceType": "Discovered",
@@ -4974,6 +5031,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\card.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\d3a115d4-1624-443d-80f9-574fe1f11070fauna1.JPG",
+      "SourceId": "HW_mvc1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\",
+      "BasePath": "_content/HW_mvc1",
+      "RelativePath": "assets/images/website-images/d3a115d4-1624-443d-80f9-574fe1f11070fauna1.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\d3a115d4-1624-443d-80f9-574fe1f11070fauna1.JPG"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\mvc_hw_2\\HW_mvc1\\HW_mvc1\\wwwroot\\assets\\images\\website-images\\dark.png",

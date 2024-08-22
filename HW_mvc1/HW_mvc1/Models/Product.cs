@@ -14,7 +14,7 @@
 		public Size Size { get; set; }
 
         public int ColorId { get; set; }
-        public Color color { get; set; }
+        public Color Color { get; set; }
 
         public ICollection<ProductImage> ProductImages { get; set; }
         public ICollection<ProductTag>? ProductTags { get; set; }
