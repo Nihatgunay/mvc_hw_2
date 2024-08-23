@@ -80,9 +80,6 @@ namespace HW_mvc1.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ColorId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
@@ -104,18 +101,34 @@ namespace HW_mvc1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SizeId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductColor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
                     b.HasIndex("ColorId");
 
-                    b.HasIndex("SizeId");
+                    b.HasIndex("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("ProductColors");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.ProductImage", b =>
@@ -147,6 +160,29 @@ namespace HW_mvc1.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImages");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductSize", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SizeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SizeId");
+
+                    b.ToTable("ProductSizes");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.ProductTag", b =>
@@ -264,23 +300,26 @@ namespace HW_mvc1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HW_mvc1.Models.Color", "color")
-                        .WithMany("Products")
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductColor", b =>
+                {
+                    b.HasOne("HW_mvc1.Models.Color", "Color")
+                        .WithMany("ProductColors")
                         .HasForeignKey("ColorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("HW_mvc1.Models.Size", "Size")
-                        .WithMany("Products")
-                        .HasForeignKey("SizeId")
+                    b.HasOne("HW_mvc1.Models.Product", "Product")
+                        .WithMany("ProductColors")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Category");
+                    b.Navigation("Color");
 
-                    b.Navigation("Size");
-
-                    b.Navigation("color");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.ProductImage", b =>
@@ -292,6 +331,25 @@ namespace HW_mvc1.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("HW_mvc1.Models.ProductSize", b =>
+                {
+                    b.HasOne("HW_mvc1.Models.Product", "Product")
+                        .WithMany("ProductSizes")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HW_mvc1.Models.Size", "Size")
+                        .WithMany("ProductSizes")
+                        .HasForeignKey("SizeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Size");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.ProductTag", b =>
@@ -320,19 +378,23 @@ namespace HW_mvc1.Migrations
 
             modelBuilder.Entity("HW_mvc1.Models.Color", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductColors");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Product", b =>
                 {
+                    b.Navigation("ProductColors");
+
                     b.Navigation("ProductImages");
+
+                    b.Navigation("ProductSizes");
 
                     b.Navigation("ProductTags");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Size", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductSizes");
                 });
 
             modelBuilder.Entity("HW_mvc1.Models.Tag", b =>

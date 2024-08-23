@@ -16,9 +16,9 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 		}
 		public async Task<IActionResult> Index()
 		{
-			//List<Tag> tags = await _context.Tags.Where(x => !x.IsDeleted).Include(c => c.Products).ToListAsync();
+			List<Tag> tags = await _context.Tags.Where(x => !x.IsDeleted).Include(c => c.ProductTags).ToListAsync();
 
-			return View();
+			return View(tags);
 		}
 		public IActionResult Create()
 		{

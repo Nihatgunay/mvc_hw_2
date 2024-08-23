@@ -16,7 +16,7 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 		}
 		public async Task<IActionResult> Index()
 		{
-			List<Color> colors = await _context.Colors.Where(x => !x.IsDeleted).Include(c => c.Products).ToListAsync();
+			List<Color> colors = await _context.Colors.Where(x => !x.IsDeleted).Include(c => c.ProductColors).ToListAsync();
 
 			return View(colors);
 		}

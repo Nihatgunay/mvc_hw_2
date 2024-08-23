@@ -1,6 +1,6 @@
 ﻿namespace HW_mvc1.Models
 {
-    public class ProductImage:BaseEntity
+    public class ProductImage : BaseEntity
     {
         public string ImageUrl { get; set; }
         public bool? IsPrimary { get; set; }

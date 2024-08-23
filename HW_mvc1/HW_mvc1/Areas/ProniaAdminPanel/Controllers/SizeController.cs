@@ -16,7 +16,7 @@ namespace HW_mvc1.Areas.ProniaAdminPanel.Controllers
 		}
 		public async Task<IActionResult> Index()
 		{
-			List<Size> sizes = await _context.Sizes.Where(x => !x.IsDeleted).Include(c => c.Products).ToListAsync();
+			List<Size> sizes = await _context.Sizes.Where(x => !x.IsDeleted).Include(c => c.ProductSizes).ToListAsync();
 
 			return View(sizes);
 		}

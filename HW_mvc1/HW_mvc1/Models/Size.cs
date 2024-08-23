@@ -6,6 +6,6 @@ namespace HW_mvc1.Models
 	{
 
 		public string Name { get; set; }
-		public ICollection<Product>? Products { get; set; }
+		public ICollection<ProductSize>? ProductSizes { get; set; }
 	}
 }
