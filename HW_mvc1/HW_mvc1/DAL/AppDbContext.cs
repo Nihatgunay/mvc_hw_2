@@ -17,6 +17,7 @@ namespace HW_mvc1.DAL
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
-	}
+    }
 }

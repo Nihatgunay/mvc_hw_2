@@ -44,7 +44,7 @@
 												@ctg.Name
 											</td>
 											<td>
-												@ctg.Products.Count
+												@ctg.Products.Where(x => x.IsDeleted == false).Count()
 											</td>
 											<td>
 												<a asp-action="Update" asp-route-id="@ctg.Id" class="btn btn-primary">edit</a>

@@ -30,10 +30,14 @@
                                 <input asp-for="HoverPhoto" class="form-control" placeholder="HoverPhoto">
                                 <span class="text-danger" asp-validation-for="HoverPhoto"></span>
                             </div>
-                            <div class="form-group">
+                            <div style="display: flex" class="form-group">
                                 @foreach (ProductImage img in Model.Images.Where(x => x.IsPrimary == null))
                                 {
-                                    <img style="width:150px; height:150px" src="~/assets/images/website-images/@img.ImageUrl" />
+                                    <div style="position: relative; margin-left: 30px">
+                                        <img style="width:150px; height:150px" src="~/assets/images/website-images/@img.ImageUrl" />
+                                        <input type="hidden" asp-for="ImageIds" value="@img.Id" class="form-control">
+                                        <button style="position: absolute; border: 0px; background-color: white"><i id="imgclearbtn" class="fa-solid fa-circle-xmark"></i></button>
+                                    </div>
                                 }
                             </div>
                             <div class="form-group">
@@ -103,3 +107,20 @@
         </div>
     </div>
 </div>
+
+
+
+@section RemoveImage{
+    <script>
+
+        var btns = document.querySelectorAll("#imgclearbtn")
+
+        for (let i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                btns[i].parentElement.parentElement.remove()
+            })
+        }
+
+    </script>
+
+}
